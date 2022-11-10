@@ -26,4 +26,5 @@ class ProductPageLocators():
     PRODUCT_IN_BASKET = (By.CSS_SELECTOR, "#messages>.alert:first-child strong")
     PRICE_IN_BASKET = (By.CSS_SELECTOR, "#messages>.alert:last-child strong")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages>.alert:first-child")
-
+    GO_TO_BASKET = (By.CSS_SELECTOR, "span.btn-group a")
+    BASKET_CONTAINER = (By.CSS_SELECTOR, "#basket_formset")
